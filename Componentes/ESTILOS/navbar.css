@@ -1,0 +1,25 @@
+.header{
+    background-color: #892be280;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0.5rem 3%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    background-color: #ffff;
+    margin: 0.2rem;
+
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    cursor:pointer
+}
+.logo img{
+    height: 50px;
+    width: auto;
+    transition: all 0.2s;
+}
